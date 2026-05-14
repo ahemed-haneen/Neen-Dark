@@ -1,0 +1,32 @@
+{
+  "name": "custom-theme",
+  "displayName": "Custom Dark Theme",
+  "description": "A custom VS Code theme built from scratch",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Custom Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/custom-dark-color-theme.json"
+      },
+      {
+        "label": "Custom Light",
+        "uiTheme": "vs",
+        "path": "./themes/custom-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/vscode-custom-theme"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
