@@ -1,0 +1,325 @@
+{
+  "name": "Custom Dark Theme",
+  "colors": {
+    // ============================================
+    // PHASE 2: PRIMARY COLOR PALETTE
+    // ============================================
+    // Define your base colors here
+    "focusBorder": "#007ACC",
+    "foreground": "#D4D4D4",
+    "widget.shadow": "#00000080",
+
+    // ============================================
+    // PHASE 3: ACTIVITY BAR
+    // ============================================
+    "activityBar.background": "#1E1E1E",
+    "activityBar.foreground": "#D4D4D4",
+    "activityBar.border": "#333333",
+    "activityBar.activeBorder": "#007ACC",
+    "activityBarBadge.background": "#007ACC",
+    "activityBarBadge.foreground": "#FFFFFF",
+
+    // ============================================
+    // PHASE 3: SIDE BAR
+    // ============================================
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#CCCCCC",
+    "sideBar.border": "#3E3E42",
+    "sideBarTitle.foreground": "#CCCCCC",
+    "sideBarSectionHeader.background": "#00000000",
+    "sideBarSectionHeader.foreground": "#CCCCCC",
+
+    // ============================================
+    // PHASE 3: EDITOR TABS
+    // ============================================
+    "editorGroupHeader.tabsBackground": "#1E1E1E",
+    "tab.activeBackground": "#1E1E1E",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.activeBorderTop": "#007ACC",
+    "tab.inactiveBackground": "#2D2D30",
+    "tab.inactiveForeground": "#969696",
+    "tab.border": "#3E3E42",
+
+    // ============================================
+    // PHASE 3: STATUS BAR
+    // ============================================
+    "statusBar.background": "#007ACC",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.border": "#005A9C",
+    "statusBarItem.hoverBackground": "#006BB3",
+    "statusBarItem.errorBackground": "#E81123",
+    "statusBarItem.warningBackground": "#FF8C00",
+
+    // ============================================
+    // PHASE 3: TITLE BAR
+    // ============================================
+    "titleBar.activeBackground": "#2D2D30",
+    "titleBar.activeForeground": "#CCCCCC",
+    "titleBar.inactiveBackground": "#3E3E42",
+    "titleBar.inactiveForeground": "#969696",
+
+    // ============================================
+    // PHASE 3: COMMAND PALETTE & QUICK PICK
+    // ============================================
+    "quickInput.background": "#1E1E1E",
+    "quickInput.foreground": "#CCCCCC",
+    "quickInputTitle.foreground": "#CCCCCC",
+    "quickInputList.focusBackground": "#094771",
+
+    // ============================================
+    // PHASE 3: NOTIFICATIONS & MESSAGES
+    // ============================================
+    "notificationCenter.border": "#3E3E42",
+    "notifications.background": "#252526",
+    "notifications.foreground": "#CCCCCC",
+    "notificationLink.foreground": "#006AB1",
+    "notificationCenterHeader.background": "#2D2D30",
+
+    // ============================================
+    // PHASE 4: EDITOR - BACKGROUNDS & BASIC
+    // ============================================
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#D4D4D4",
+    "editorLineNumber.foreground": "#858585",
+    "editorLineNumber.activeForeground": "#C6C6C6",
+    "editor.lineHighlightBackground": "#00000020",
+    "editor.lineHighlightBorder": "#00000000",
+
+    // ============================================
+    // PHASE 4: EDITOR - SELECTION & CURSOR
+    // ============================================
+    "editor.selectionBackground": "#264F78",
+    "editor.selectionForeground": "#FFFFFF",
+    "editor.selectionHighlightBackground": "#ADD6FF26",
+    "editor.inactiveSelectionBackground": "#3F3F46",
+    "editor.findMatchBackground": "#9E6A03",
+    "editor.findMatchHighlightBackground": "#FFD602",
+    "editor.findRangeHighlightBackground": "#3F3F0020",
+    "editor.findMatchBorder": "#CD8200",
+
+    // ============================================
+    // PHASE 4: EDITOR - CURSOR & GUIDES
+    // ============================================
+    "editorCursor.foreground": "#AEAFAD",
+    "editorCursor.background": "#1E1E1E",
+    "editorWhitespace.foreground": "#E3E4E229",
+    "editorIndentGuide.background": "#404405",
+    "editorIndentGuide.activeBackground": "#707070",
+    "editorRuler.foreground": "#5A5A5A",
+
+    // ============================================
+    // PHASE 4: EDITOR - BRACKETS & SYNTAX
+    // ============================================
+    "editorBracketMatch.background": "#0064001A",
+    "editorBracketMatch.border": "#B4B4B4",
+    "editorError.foreground": "#F48771",
+    "editorError.background": "#B73333",
+    "editorWarning.foreground": "#CCA700",
+    "editorWarning.background": "#433F0B",
+    "editorInfo.foreground": "#75BEFF",
+
+    // ============================================
+    // PHASE 4: EDITOR - DIFF
+    // ============================================
+    "diffEditor.insertedTextBackground": "#9ccc6535",
+    "diffEditor.insertedTextBorder": "#6A9955",
+    "diffEditor.removedTextBackground": "#ff000033",
+    "diffEditor.removedTextBorder": "#f48771",
+
+    // ============================================
+    // PHASE 6: TERMINAL
+    // ============================================
+    "terminal.background": "#1E1E1E",
+    "terminal.foreground": "#D4D4D4",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#CD3131",
+    "terminal.ansiGreen": "#0DBC79",
+    "terminal.ansiYellow": "#E5E510",
+    "terminal.ansiBlue": "#2472C8",
+    "terminal.ansiMagenta": "#BC3FBC",
+    "terminal.ansiCyan": "#11A8CD",
+    "terminal.ansiWhite": "#E5E5E5",
+    "terminal.ansiBrightBlack": "#666666",
+    "terminal.ansiBrightRed": "#F14C4C",
+    "terminal.ansiBrightGreen": "#23D18B",
+    "terminal.ansiBrightYellow": "#F5F543",
+    "terminal.ansiBrightBlue": "#3B8EEA",
+    "terminal.ansiBrightMagenta": "#D670D6",
+    "terminal.ansiBrightCyan": "#29B8DB",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+
+    // ============================================
+    // PHASE 5: SYNTAX HIGHLIGHTING
+    // ============================================
+    // These are handled in tokenColors section below
+    // This section is for semantic token colors
+    "variable": "#9CDCFE",
+    "variable.readonly": "#4FC1FF"
+  },
+
+  "tokenColors": [
+    // ============================================
+    // PHASE 5: COMMENTS
+    // ============================================
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#6A9955",
+        "fontStyle": "italic"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: STRINGS
+    // ============================================
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "name": "String escape sequences",
+      "scope": ["string meta.embedded", "string constant.character.escape"],
+      "settings": {
+        "foreground": "#D7BA7D"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: NUMBERS & CONSTANTS
+    // ============================================
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": ["constant.language"],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: KEYWORDS & OPERATORS
+    // ============================================
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "keyword.operator"],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "name": "Keyword Control",
+      "scope": ["keyword.control"],
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: VARIABLES & FUNCTIONS
+    // ============================================
+    {
+      "name": "Variable",
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": ["entity.name.function.call"],
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: CLASSES & TYPES
+    // ============================================
+    {
+      "name": "Class name",
+      "scope": ["entity.name.class"],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Type name",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Interface name",
+      "scope": ["entity.name.type.interface"],
+      "settings": {
+        "foreground": "#B8D7A3"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: PROPERTIES & ATTRIBUTES
+    // ============================================
+    {
+      "name": "Attribute",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: MARKUP/HTML
+    // ============================================
+    {
+      "name": "HTML Tag",
+      "scope": ["punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+
+    // ============================================
+    // PHASE 5: INVALID/ERROR TEXT
+    // ============================================
+    {
+      "name": "Invalid",
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#F48771",
+        "background": "#B73333"
+      }
+    }
+  ]
+}
